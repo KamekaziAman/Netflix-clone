@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main {
+    background-image: url(image/IN-en-20231120-popsignuptwoweeks.png);
+    height: 80vh;
+    background-position: center center;
+    background-size: max(2000px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.mainbox {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 80vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 120vh;
+    margin: auto;
+
+}
+
+nav button {
+    display: flex;
+
+}
+
+
+nav img {
+    width: 180px;
+    margin: 2vh;
+
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vh;
+
+}
+
+button {
+    background-color: rgba(252, 22, 22, 0.932);
+    padding: 8px 1.3em;
+    border: none;
+    cursor: cell;
+    font-weight: bold;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+select {
+    background-color: rgba(0, 0, 0, 0.932);
+    width: 7em;
+    height: 2.8em;
+    text-align: center;
+    border: none;
+    cursor: cell;
+    font-weight: bold;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+nav select {
+    margin-right: 4vh;
+    padding: 5px;
+}
+
+.centertext {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text1 {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: rgba(255, 255, 255, 0.849);
+    margin-top: 10px;
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.text2 {
+    text-align: center;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    font-size: 48px;
+
+}
+
+.text3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.email {
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input {
+    border-radius: 5px;
+    margin: 10px;
+    padding: 0.7em 5em;
+    cursor: cell;
+    font-weight: bold;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.623);
+    border-color: rgba(245, 245, 245, 0.685);
+    max-width: 10em;
+    color: whitesmoke;
+}
+
+.emailbutton {
+    padding: 0.7em 0.5em;
+    cursor: cell;
+    font-weight: bold;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    color: whitesmoke;
+    max-height: 3em;
+}
+
+
+
+.b1 {
+    border: none;
+    width: 100%;
+    height: 1vh;
+    background-color: rgb(44, 44, 44);
+}
+
+.bc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+
+}
+
+.bt {
+    display: flex;
+    flex-direction: column;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 3em;
+    margin: 2em;
+}
+
+.bt2 {
+    opacity: 0.8;
+    font-weight: lighter;
+    font-size: 0.5em;
+    max-width: 30em;
+
+}
+
+.bm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+}
+
+.bpng {
+    width: 30em;
+    margin: 10em;
+}
+
+.bm2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    height: 100vh;
+    background-color: black;
+}
+
+.box2text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 3em;
+    margin: 20px;
+
+
+}
+
+.element{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: whitesmoke;
+    background-color: rgba(128, 128, 128, 0.603);
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 50em;
+    cursor: pointer;
+}
+
+.element:hover{
+    background-color: rgba(128, 128, 128, 0.829);
+}
+
+.netflix-footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
